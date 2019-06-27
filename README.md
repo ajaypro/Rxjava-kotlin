@@ -24,6 +24,12 @@ compile 'io.reactivex.rxjava2:rxandroid:2.1.0'
 * `Merge` -> combine multiple Observables into one by merging their emissions
 * `SwitchMap` -> ransform the items emitted by an Observable into Observables, and mirror those items emitted by the most-recently transformed Observable
 
+### Functionalities
+#### Search function
+* Using operators such as `debounce`, `distinctuntilChange`, `filter` combining these operators with simple appoarch to achieve a 
+seamless serach functionality in your app, the type of search functionality used here would suit apps such as e-commerce, maps,
+contact search, basically any search among huge volume of data. 
+
 ### TODO 
 
 * examples are to be added for remainin subject and realtime practical implementations of rxjava
